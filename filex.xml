@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='filesl.xsl'?>
+<tariffs>
+    <tariff id="1">
+        <name>Super</name>
+        <operatorname>MTS</operatorname>
+        <payroll>200 rub</payroll>
+        <callprices>
+            <insidenetworkcalls>0 rub/min</insidenetworkcalls>
+            <outsidenetworkcalls>2 rub/min</outsidenetworkcalls>
+            <landlinecalls>3 rub/min</landlinecalls>
+        </callprices>
+        <smsprice>1 rub</smsprice>
+        <parametrs>
+            <favoritenumber>10 rub/month</favoritenumber>
+            <connectioncost>100 rub</connectioncost>
+            <promisedpayment>10 rub</promisedpayment>
+        </parametrs>
+    </tariff>
+    <tariff id="2">
+        <name>Superclass</name>
+        <operatorname>MTS</operatorname>
+        <payroll>300 rub</payroll>
+        <callprices>
+            <insidenetworkcalls>0 rub/min</insidenetworkcalls>
+            <outsidenetworkcalls>2 rub/min</outsidenetworkcalls>
+            <landlinecalls>3 rub/min</landlinecalls>
+        </callprices>
+        <smsprice>0 rub</smsprice>
+        <parametrs>
+            <melody>5 rub/day</melody>
+            <connectioncost>200 rub</connectioncost>
+            <promisedpayment>10 rub</promisedpayment>
+        </parametrs>
+    </tariff>
+
+    <tariff id="3">
+        <name>ForEverybody</name>
+        <operatorname>Beeline</operatorname>
+        <payroll>500 rub</payroll>
+        <callprices>
+            <insidenetworkcalls>1 rub/min</insidenetworkcalls>
+            <outsidenetworkcalls>1 rub/min</outsidenetworkcalls>
+            <landlinecalls>1 rub/min</landlinecalls>
+        </callprices>
+        <smsprice>1 rub</smsprice>
+        <parametrs>
+            <melody>10 rub/day</melody>
+            <connectioncost>50 rub</connectioncost>
+            <promisedpayment>80 rub</promisedpayment>
+        </parametrs>
+    </tariff>
+
+    <tariff id="3">
+        <name>Family</name>
+        <operatorname>tele2</operatorname>
+        <payroll>100 rub</payroll>
+        <callprices>
+            <insidenetworkcalls>0 rub/min</insidenetworkcalls>
+            <outsidenetworkcalls>4 rub/min</outsidenetworkcalls>
+            <landlinecalls>3 rub/min</landlinecalls>
+        </callprices>
+        <smsprice>2 rub</smsprice>
+        <parametrs>
+            <connectioncost>150 rub</connectioncost>
+            <promisedpayment>100 rub</promisedpayment>
+        </parametrs>
+    </tariff>
+
+    <tariff id="4">
+        <name>Especially</name>
+        <operatorname>yota</operatorname>
+        <payroll>250 rub</payroll>
+        <callprices>
+            <insidenetworkcalls>2 rub/min</insidenetworkcalls>
+            <outsidenetworkcalls>2 rub/min</outsidenetworkcalls>
+            <landlinecalls>5 rub/min</landlinecalls>
+        </callprices>
+        <smsprice>4 rub</smsprice>
+        <parametrs>
+            <melody>8 rub/day</melody>
+            <connectioncost>100 rub</connectioncost>
+        </parametrs>
+    </tariff>
+
+    <tariff id="5">
+        <name>Unique</name>
+        <operatorname>MTS</operatorname>
+        <payroll>350 rub</payroll>
+        <callprices>
+            <insidenetworkcalls>0 rub/min</insidenetworkcalls>
+            <outsidenetworkcalls>2 rub/min</outsidenetworkcalls>
+            <landlinecalls>3 rub/min</landlinecalls>
+        </callprices>
+        <smsprice>0 rub</smsprice>
+        <parametrs>
+            <melody>5 rub/day</melody>
+            <addint>30 rub/month</addint>
+        </parametrs>
+    </tariff>
+
+    <tariff id="6">
+        <name>AInternet</name>
+        <operatorname>megafon</operatorname>
+        <payroll>80 rub</payroll>
+        <callprices>
+            <insidenetworkcalls>2 rub/min</insidenetworkcalls>
+            <outsidenetworkcalls>2 rub/min</outsidenetworkcalls>
+            <landlinecalls>3 rub/min</landlinecalls>
+        </callprices>
+        <smsprice>1 rub</smsprice>
+        <parametrs>
+            <melody>5 rub/day</melody>
+            <connectioncost>200 rub</connectioncost>
+            <addint>50 rub/month</addint>
+        </parametrs>
+    </tariff>
+
+    <tariff id="7">
+        <name>ASocial</name>
+        <operatorname>tele2</operatorname>
+        <payroll>150 rub</payroll>
+        <callprices>
+            <insidenetworkcalls>0 rub/min</insidenetworkcalls>
+            <outsidenetworkcalls>0 rub/min</outsidenetworkcalls>
+            <landlinecalls>3 rub/min</landlinecalls>
+        </callprices>
+        <smsprice>5 rub</smsprice>
+        <parametrs>
+            <connectioncost>200 rub</connectioncost>
+            <addint>50 rub/month</addint>
+            <addmin>50 rub/month</addmin>
+        </parametrs>
+    </tariff>
+
+    <tariff id="8">
+        <name>Travel</name>
+        <operatorname>yota</operatorname>
+        <payroll>600 rub</payroll>
+        <callprices>
+            <insidenetworkcalls>0 rub/min</insidenetworkcalls>
+            <outsidenetworkcalls>0 rub/min</outsidenetworkcalls>
+            <landlinecalls>0 rub/min</landlinecalls>
+        </callprices>
+        <smsprice>25 rub</smsprice>
+        <parametrs>
+            <connectioncost>200 rub</connectioncost>
+            <addint>250 rub/month</addint>
+            <addmin>250 rub/month</addmin>
+        </parametrs>
+    </tariff>
+
+    <tariff id="9">
+        <name>AMess</name>
+        <operatorname>yota</operatorname>
+        <payroll>600 rub</payroll>
+        <callprices>
+            <insidenetworkcalls>5 rub/min</insidenetworkcalls>
+            <outsidenetworkcalls>5 rub/min</outsidenetworkcalls>
+            <landlinecalls>10 rub/min</landlinecalls>
+        </callprices>
+        <smsprice>0 rub</smsprice>
+        <parametrs>
+            <connectioncost>200 rub</connectioncost>
+            <addint>100 rub/month</addint>
+            <addmin>100 rub/month</addmin>
+        </parametrs>
+    </tariff>
+
+    <tariff id="9">
+        <name>ACalls</name>
+        <operatorname>Beeline</operatorname>
+        <payroll>120 rub</payroll>
+        <callprices>
+            <insidenetworkcalls>0 rub/min</insidenetworkcalls>
+            <outsidenetworkcalls>0 rub/min</outsidenetworkcalls>
+            <landlinecalls>0 rub/min</landlinecalls>
+        </callprices>
+        <smsprice>25 rub</smsprice>
+        <parametrs>
+            <melody>15 rub/day</melody>
+            <addmin>50 rub/month</addmin>
+        </parametrs>
+    </tariff>
+
+    <tariff id="10">
+        <name>AMinutes</name>
+        <operatorname>megafon</operatorname>
+        <payroll>400 rub</payroll>
+        <callprices>
+            <insidenetworkcalls>0 rub/min</insidenetworkcalls>
+            <outsidenetworkcalls>0 rub/min</outsidenetworkcalls>
+            <landlinecalls>0 rub/min</landlinecalls>
+        </callprices>
+        <smsprice>1 rub</smsprice>
+        <parametrs>
+            <addint>30 rub/month</addint>
+            <addmin>50 rub/month</addmin>
+        </parametrs>
+    </tariff>
+</tariffs>
