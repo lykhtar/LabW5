@@ -1,36 +1,33 @@
-<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="tariffs" type="tariffsType"/>
-  <xsd:complexType name="callpricesType">
-    <xsd:sequence>
-      <xsd:element type="xsd:string" name="insidenetworkcalls"/>
-      <xsd:element type="xsd:string" name="outsidenetworkcalls"/>
-      <xsd:element type="xsd:string" name="landlinecalls"/>
-    </xsd:sequence>
-  </xsd:complexType>
-  <xsd:complexType name="parametrsType">
-    <xsd:sequence>
-      <xsd:element type="xsd:string" name="favoritenumber" minOccurs="0"/>
-      <xsd:element type="xsd:string" name="melody" minOccurs="0"/>
-      <xsd:element type="xsd:string" name="connectioncost" minOccurs="0"/>
-      <xsd:element type="xsd:string" name="promisedpayment" minOccurs="0"/>
-      <xsd:element type="xsd:string" name="addint" minOccurs="0"/>
-      <xsd:element type="xsd:string" name="addmin" minOccurs="0"/>
-    </xsd:sequence>
-  </xsd:complexType>
-  <xsd:complexType name="tariffType">
-    <xsd:sequence>
-      <xsd:element type="xsd:string" name="name"/>
-      <xsd:element type="xsd:string" name="operatorname"/>
-      <xsd:element type="xsd:string" name="payroll"/>
-      <xsd:element type="callpricesType" name="callprices"/>
-      <xsd:element type="xsd:string" name="smsprice"/>
-      <xsd:element type="parametrsType" name="parametrs"/>
-    </xsd:sequence>
-    <xsd:attribute type="xsd:byte" name="id" use="optional"/>
-  </xsd:complexType>
-  <xsd:complexType name="tariffsType">
-    <xsd:sequence>
-      <xsd:element type="tariffType" name="tariff" maxOccurs="unbounded" minOccurs="0"/>
-    </xsd:sequence>
-  </xsd:complexType>
-</xsd:schema>
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="tariffs" type="tariffsType"/>
+  <complexType name="callpricesType">
+    <sequence>
+      <element type="string" name="insidenetworkcalls"/>
+      <element type="string" name="outsidenetworkcalls"/>
+      <element type="string" name="landlinecalls"/>
+    </sequence>
+  </complexType>
+  <complexType name="parametrsType">
+    <choice maxOccurs="unbounded" minOccurs="0">
+      <element type="string" name="favoritenumber"/>
+      <element type="string" name="connectioncost"/>
+      <element type="string" name="promisedpayment"/>
+    </choice>
+  </complexType>
+  <complexType name="tariffType">
+    <sequence>
+      <element type="string" name="name"/>
+      <element type="string" name="operatorname"/>
+      <element type="string" name="payroll"/>
+      <element type="callpricesType" name="callprices"/>
+      <element type="string" name="smsprice"/>
+      <element type="parametrsType" name="parametrs"/>
+    </sequence>
+    <attribute type="byte" name="id" use="optional"/>
+  </complexType>
+  <complexType name="tariffsType">
+    <sequence>
+      <element type="tariffType" name="tariff" maxOccurs="unbounded" minOccurs="0"/>
+    </sequence>
+  </complexType>
+</schema>
