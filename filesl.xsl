@@ -6,7 +6,7 @@
             <body>
                 <h2>Tariffs</h2>
                 <table border="1">
-                    <tr bgcolor="#FFE4B5">
+                    <tr bgcolor="#СС3300">
                         <th>Name</th>
                         <th>Operatorname</th>
                         <th>Payroll</th>
