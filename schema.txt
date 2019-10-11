@@ -1,33 +1,33 @@
-<schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema">
-  <element name="tariffs" type="tariffsType"/>
-  <complexType name="callpricesType">
-    <sequence>
-      <element type="string" name="insidenetworkcalls"/>
-      <element type="string" name="outsidenetworkcalls"/>
-      <element type="string" name="landlinecalls"/>
-    </sequence>
-  </complexType>
-  <complexType name="parametrsType">
-    <choice maxOccurs="unbounded" minOccurs="0">
-      <element type="string" name="favoritenumber"/>
-      <element type="string" name="connectioncost"/>
-      <element type="string" name="promisedpayment"/>
-    </choice>
-  </complexType>
-  <complexType name="tariffType">
-    <sequence>
-      <element type="string" name="name"/>
-      <element type="string" name="operatorname"/>
-      <element type="string" name="payroll"/>
-      <element type="callpricesType" name="callprices"/>
-      <element type="string" name="smsprice"/>
-      <element type="parametrsType" name="parametrs"/>
-    </sequence>
-    <attribute type="byte" name="id" use="optional"/>
-  </complexType>
-  <complexType name="tariffsType">
-    <sequence>
-      <element type="tariffType" name="tariff" maxOccurs="unbounded" minOccurs="0"/>
-    </sequence>
-  </complexType>
-</schema>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="tariffs" type="tariffsType"/>
+  <xs:complexType name="callpricesType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="insidenetworkcalls"/>
+      <xs:element type="xs:string" name="outsidenetworkcalls"/>
+      <xs:element type="xs:string" name="landlinecalls"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="parametrsType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="xs:string" name="favoritenumber"/>
+      <xs:element type="xs:string" name="connectioncost"/>
+      <xs:element type="xs:string" name="promisedpayment"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="tariffType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="xs:string" name="operatorname"/>
+      <xs:element type="xs:string" name="payroll"/>
+      <xs:element type="callpricesType" name="callprices"/>
+      <xs:element type="xs:string" name="smsprice"/>
+      <xs:element type="parametrsType" name="parametrs"/>
+    </xs:sequence>
+    <xs:attribute type="xs:byte" name="id" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="tariffsType">
+    <xs:sequence>
+      <xs:element type="tariffType" name="tariff" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
