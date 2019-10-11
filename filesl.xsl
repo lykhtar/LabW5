@@ -60,18 +60,6 @@
                                         <span>promisedpayment: </span>
                                         <xsl:value-of select="parameters/promisedpayment"/>
                                     </li>
-                                    <li>
-                                        <span>melody: </span>
-                                        <xsl:value-of select="parameters/melody"/>
-                                    </li>
-                                    <li>
-                                        <span>addint: </span>
-                                        <xsl:value-of select="parameters/addint"/>
-                                    </li>
-                                    <li>
-                                        <span>addmin: </span>
-                                        <xsl:value-of select="parameters/addmin"/>
-                                    </li>
                                 </ul>
                             </td>
                         </tr>
