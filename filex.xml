@@ -17,6 +17,7 @@
             <promisedpayment>10 rub</promisedpayment>
         </parametrs>
     </tariff>
+
     <tariff id="2">
         <name>Superclass</name>
         <operatorname>MTS</operatorname>
@@ -28,7 +29,7 @@
         </callprices>
         <smsprice>0 rub</smsprice>
         <parametrs>
-            <melody>5 rub/day</melody>
+            <favoritenumber>5 rub/day</favoritenumber>
             <connectioncost>200 rub</connectioncost>
             <promisedpayment>10 rub</promisedpayment>
         </parametrs>
@@ -45,7 +46,7 @@
         </callprices>
         <smsprice>1 rub</smsprice>
         <parametrs>
-            <melody>10 rub/day</melody>
+            <favoritenumber>10 rub/day</favoritenumber>
             <connectioncost>50 rub</connectioncost>
             <promisedpayment>80 rub</promisedpayment>
         </parametrs>
@@ -62,6 +63,7 @@
         </callprices>
         <smsprice>2 rub</smsprice>
         <parametrs>
+            <favoritenumber>10 rub/day</favoritenumber>
             <connectioncost>150 rub</connectioncost>
             <promisedpayment>100 rub</promisedpayment>
         </parametrs>
@@ -78,8 +80,9 @@
         </callprices>
         <smsprice>4 rub</smsprice>
         <parametrs>
-            <melody>8 rub/day</melody>
+            <favoritenumber>8 rub/day</favoritenumber>
             <connectioncost>100 rub</connectioncost>
+            <promisedpayment>100 rub</promisedpayment>
         </parametrs>
     </tariff>
 
@@ -94,8 +97,9 @@
         </callprices>
         <smsprice>0 rub</smsprice>
         <parametrs>
-            <melody>5 rub/day</melody>
-            <addint>30 rub/month</addint>
+            <favoritenumber>8 rub/day</favoritenumber>
+            <connectioncost>100 rub</connectioncost>
+            <promisedpayment>100 rub</promisedpayment>
         </parametrs>
     </tariff>
 
@@ -110,9 +114,9 @@
         </callprices>
         <smsprice>1 rub</smsprice>
         <parametrs>
-            <melody>5 rub/day</melody>
-            <connectioncost>200 rub</connectioncost>
-            <addint>50 rub/month</addint>
+            <favoritenumber>5 rub/day</favoritenumber>
+            <connectioncost>100 rub</connectioncost>
+            <promisedpayment>50 rub</promisedpayment>
         </parametrs>
     </tariff>
 
@@ -128,8 +132,8 @@
         <smsprice>5 rub</smsprice>
         <parametrs>
             <connectioncost>200 rub</connectioncost>
-            <addint>50 rub/month</addint>
-            <addmin>50 rub/month</addmin>
+            <favoritenumber>50 rub/day</favoritenumber>
+            <promisedpayment>50 rub</promisedpayment>
         </parametrs>
     </tariff>
 
@@ -145,8 +149,8 @@
         <smsprice>25 rub</smsprice>
         <parametrs>
             <connectioncost>200 rub</connectioncost>
-            <addint>250 rub/month</addint>
-            <addmin>250 rub/month</addmin>
+            <favoritenumber>250 rub/day</favoritenumber>
+            <promisedpayment>200 rub</promisedpayment>
         </parametrs>
     </tariff>
 
@@ -162,8 +166,8 @@
         <smsprice>0 rub</smsprice>
         <parametrs>
             <connectioncost>200 rub</connectioncost>
-            <addint>100 rub/month</addint>
-            <addmin>100 rub/month</addmin>
+            <favoritenumber>100 rub/day</favoritenumber>
+            <promisedpayment>200 rub</promisedpayment>
         </parametrs>
     </tariff>
 
@@ -178,8 +182,9 @@
         </callprices>
         <smsprice>25 rub</smsprice>
         <parametrs>
-            <melody>15 rub/day</melody>
-            <addmin>50 rub/month</addmin>
+            <connectioncost>200 rub</connectioncost>
+            <favoritenumber>15 rub/day</favoritenumber>
+            <promisedpayment>200 rub</promisedpayment>
         </parametrs>
     </tariff>
 
@@ -194,8 +199,9 @@
         </callprices>
         <smsprice>1 rub</smsprice>
         <parametrs>
-            <addint>30 rub/month</addint>
-            <addmin>50 rub/month</addmin>
+            <connectioncost>30 rub</connectioncost>
+            <favoritenumber>50 rub/day</favoritenumber>
+            <promisedpayment>70 rub</promisedpayment>
         </parametrs>
     </tariff>
 </tariffs>
