@@ -2,31 +2,31 @@
   <xsd:element name="tariffs" type="tariffsType"/>
   <xsd:complexType name="callpricesType">
     <xsd:sequence>
-      <xsd:element type="xs:string" name="insidenetworkcalls"/>
-      <xsd:element type="xs:string" name="outsidenetworkcalls"/>
-      <xsd:element type="xs:string" name="landlinecalls"/>
+      <xsd:element type="xsd:string" name="insidenetworkcalls"/>
+      <xsd:element type="xsd:string" name="outsidenetworkcalls"/>
+      <xsd:element type="xsd:string" name="landlinecalls"/>
     </xsd:sequence>
   </xsd:complexType>
   <xsd:complexType name="parametrsType">
     <xsd:sequence>
-      <xsd:element type="xs:string" name="favoritenumber" minOccurs="0"/>
-      <xsd:element type="xs:string" name="melody" minOccurs="0"/>
-      <xsd:element type="xs:string" name="connectioncost" minOccurs="0"/>
-      <xsd:element type="xs:string" name="promisedpayment" minOccurs="0"/>
-      <xsd:element type="xs:string" name="addint" minOccurs="0"/>
-      <xsd:element type="xs:string" name="addmin" minOccurs="0"/>
+      <xsd:element type="xsd:string" name="favoritenumber" minOccurs="0"/>
+      <xsd:element type="xsd:string" name="melody" minOccurs="0"/>
+      <xsd:element type="xsd:string" name="connectioncost" minOccurs="0"/>
+      <xsd:element type="xsd:string" name="promisedpayment" minOccurs="0"/>
+      <xsd:element type="xsd:string" name="addint" minOccurs="0"/>
+      <xsd:element type="xsd:string" name="addmin" minOccurs="0"/>
     </xsd:sequence>
   </xsd:complexType>
   <xsd:complexType name="tariffType">
     <xsd:sequence>
-      <xsd:element type="xs:string" name="name"/>
-      <xsd:element type="xs:string" name="operatorname"/>
-      <xsd:element type="xs:string" name="payroll"/>
+      <xsd:element type="xsd:string" name="name"/>
+      <xsd:element type="xsd:string" name="operatorname"/>
+      <xsd:element type="xsd:string" name="payroll"/>
       <xsd:element type="callpricesType" name="callprices"/>
-      <xsd:element type="xs:string" name="smsprice"/>
+      <xsd:element type="xsd:string" name="smsprice"/>
       <xsd:element type="parametrsType" name="parametrs"/>
     </xsd:sequence>
-    <xsd:attribute type="xs:byte" name="id" use="optional"/>
+    <xsd:attribute type="xsd:byte" name="id" use="optional"/>
   </xsd:complexType>
   <xsd:complexType name="tariffsType">
     <xsd:sequence>
